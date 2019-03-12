@@ -43,7 +43,7 @@ h1, .organization {
     margin: 15px 0;
 }
 section {
-    margin: 25px 15px 0 15px;
+    margin: 25px 15px 25px 15px;
 }
 .date {
     width: 145px;
@@ -57,4 +57,10 @@ section {
 }
 .skills {
     text-align: justify;
+}
+.separator {
+    width: 90%;
+    height: 1px;
+    background: #cccccc;
+    margin: 0 auto;
 }
