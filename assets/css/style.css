@@ -1,0 +1,82 @@
+body {
+  max-width: 1024px;
+  margin: 10px auto;
+  font-family: Arial, sans-serif;
+  color: #42474c;
+}
+
+.photo-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-image: url("../img/YB.jpg");
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: 85% 10%;
+  margin: 10px auto;
+}
+
+.main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h1,
+h2,
+.discipline {
+  font-weight: bold;
+}
+
+h1,
+.organization {
+  text-transform: uppercase;
+}
+
+.date,
+.subtitle {
+  font-style: italic;
+}
+
+.date,
+.organization {
+  display: inline-block;
+}
+
+.education li,
+.work-experience li,
+.skills li {
+  margin: 15px 0;
+}
+
+section {
+  margin: 25px 15px 25px 15px;
+}
+
+.date {
+  width: 145px;
+  margin-right: 20px;
+}
+
+.discipline {
+  margin-left: 170px;
+}
+
+.date,
+.discipline,
+.organization {
+  margin-bottom: 5px;
+}
+
+.skills {
+  text-align: justify;
+}
+
+.separator {
+  width: 90%;
+  height: 1px;
+  background: #cccccc;
+  margin: 0 auto;
+}
